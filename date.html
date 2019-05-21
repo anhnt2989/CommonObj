@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Làm việc với đối tượng date</title>
+</head>
+<body>
+            <script>
+                let DoB = {
+                    hour : 4,
+                    day : 2,
+                    month : 9,
+                    year : 1989
+                };
+                let date = {
+                    chour : 16,
+                    cday : 21,
+                    cmonth : 5,
+                    cyear : 2019
+                };
+
+                document.write("Tôi đã sống " + Number(date.cyear - DoB.year) + " năm." +"<br>");
+                document.write("Tôi đã sống "+ Number((date.cyear - DoB.year)*12) + " tháng." + "<br>");
+                document.write("Tôi đã sống "+ Number((date.cyear - DoB.year)*12*30) + " ngày." + "<br>");
+                document.write("Tôi đã sống "+ Number((date.cyear - DoB.year)*12*30*24) + " giờ." + "<br>");
+                document.write("Tôi đã sống "+ Number((date.cyear - DoB.year)*12*30*24*60) + " phút." + "<br>");
+                document.write("Tôi đã sống "+ Number((date.cyear - DoB.year)*12*30*24*60*60) + " giây." + "<br>");
+
+            </script>
+</body>
+</html>

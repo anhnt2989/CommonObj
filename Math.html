@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Làm việc với đối tượng Math</title>
+</head>
+<body>
+        <script>
+            //Số ngẫu nhiên từ 0-10 :
+            Math.floor(Math.random()*10);
+
+            //Số ngẫu nhiên từ 0-400 :
+            Math.floor(Math.random()*400);
+
+            //Số ngẫu nhiên từ 50-100 :
+            Math.floor(Math.random()*(100-50+1)+50);
+
+            //Số nhỏ nhất trong các số 5,7,2,9 :
+            let numberArray = [5,7,2,9];
+            Math.min.apply(Math,numberArray);
+            //hoặc thế này cho gọn :
+            Math.min(5,7,2,9);
+
+            //Luỹ thừa 53 của số 3 (hay 1 số được nhập vào) :
+            Math.pow(3,53);
+
+            //Diện tích hình tròn có bán kính 5cm :
+            let area = 5*5*Math.PI;
+            console.log(area);
+
+        </script>
+</body>
+</html>
